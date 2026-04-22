@@ -1,5 +1,5 @@
 # MeshGuardEval-Multi-Architecture-Evaluation-Model
-A lightweight,  open-source architecture‑agnostic framework for evaluating LLM systems using a simple three‑layer model: Foundation, Interaction, and Outcomes. Eventually will include mocked examples and a minimal scaffold for structured, reproducible assessments.
+A lightweight,  open-source architecture‑agnostic framework for evaluating LLM systems using a simple three‑layer model: Foundation, Interaction, and Outcomes. Might include in future mocked examples and a minimal scaffold for structured, reproducible assessments.
 
 MeshGuardEval is a three‑layer evaluation model designed to bring consistency to LLM system evaluation across very different architectures — including agents, RAG pipelines, toolchains, vibecoded apps, and LLM‑as‑judge setups.
 
@@ -71,18 +71,3 @@ Although LLM systems vary widely — agents, RAG, toolchains, evaluators — the
 *Do the outputs meet expectations?
 
 MeshGuardEval provides a unifying lens that applies to all of them without requiring access to internal implementation details.
-
-What This Repository Contains (IP‑Safe)
-The public version of MeshGuardEval includes:
-
-a high‑level conceptual diagram
-
-a minimal mocked example (no real models, no real data)
-
-a simple JSON output format
-
-a lightweight evaluator scaffold
-
-documentation explaining the three layers
-
-a SECURITY.md describing sanitization expectations
